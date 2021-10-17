@@ -9,7 +9,7 @@
 
   >python3 manage.py loaddata products/fixtures/goods.json 
 
-- Ceate a supersuser for access to admin panel:
+- Create a supersuser for access to admin panel:
   >python3 manage.py createsuperuser
 
 - Run server:
