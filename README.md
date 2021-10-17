@@ -1,15 +1,16 @@
 # Sample Django project: store
 
-Create DB:
-  python3 manage.py migrate
+- Create DB:
+  >python3 manage.py migrate
 
-There are some saved fixtures with sample categories and goods, if needed:
+- There are some saved fixtures with sample categories and goods, if needed:
 
-  python3 manage.py loaddata products/fixtures/categories.json
-  python3 manage.py loaddata products/fixtures/goods.json 
+  >python3 manage.py loaddata products/fixtures/categories.json
 
-Ceate a supersuser for access to admin panel:
-  python3 manage.py createsuperuser
+  >python3 manage.py loaddata products/fixtures/goods.json 
 
-Run server:
-  python3 manage.py runserver
+- Ceate a supersuser for access to admin panel:
+  >python3 manage.py createsuperuser
+
+- Run server:
+  >python3 manage.py runserver
