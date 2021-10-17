@@ -1,6 +1,4 @@
-# store
-Sample Django project
-
+# Sample Django project: store
 
 Create DB:
   python3 manage.py migrate
